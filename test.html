@@ -27,9 +27,9 @@
                 url: "test.php",
                 data: { 'pageSource': pageSource },
                 cache: false,
-                success: function()
+                success: function(msg)
                     {
-                        alert("Source Submitted");
+                        alert(msg);
                     }
             });
             /*xhr.open('POST',pageSource,true);

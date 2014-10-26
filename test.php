@@ -9,6 +9,7 @@
         print $source;
         print "hello print!";
         echo "hello echo!";
+        return "hello!";
     ?>
 </body>
 </html>
