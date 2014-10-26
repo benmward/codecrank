@@ -1,16 +1,3 @@
 <?php
-//echo "this is a test!!!";
-//if($_POST['pageSource'] == True)
-//{
-//    echo "success!";
-//}
-//else
-//{
-//    echo "failure...";
-//}
-$source = $_POST['pageSource'];
-echo $source;
-//print "hello print!";
-//echo "hello echo!";
-//return "hello!";
-?>
+$populate = file_get_contents('http://perfect-stock-745.appspot.com/');
+echo <p>Hello, world!</p>
