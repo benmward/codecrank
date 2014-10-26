@@ -9,7 +9,7 @@
 //    echo "failure...";
 //}
 $source = $_POST['pageSource'];
-print $source;
+echo $source;
 //print "hello print!";
 //echo "hello echo!";
 //return "hello!";
